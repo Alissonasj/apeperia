@@ -1,0 +1,36 @@
+.destaques {
+    background-color: var(--cor-azul-clarinho);
+    padding: 2rem 0;
+}
+
+.destaques__figura {
+    max-width: 564px;
+    margin: 0 auto;
+}
+
+.destaques__titulo {
+    text-transform: uppercase;
+    color: var(--cor-cinza);
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.destaques__img {    
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.destaques__texto {    
+    font-weight: 400;
+    font-size: 1.2rem;
+    line-height: 25.87px;
+    color: var(--cor-preto);
+    padding: 0 20px;
+    margin-bottom: 2rem;    
+}
+
+.destaques__link {
+    color: var(--cor-vermelho-claro);
+    text-align: center;
+}

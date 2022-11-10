@@ -1,0 +1,68 @@
+@import url('cabecalho-header.css');
+@import url('principal-main.css');
+@import url('destaques-section.css');
+@import url('descricao-section.css');
+@import url('sobre-section.css');
+@import url('planos-section.css');
+@import url('contato.css');
+@import url('rodape.css');
+
+:root {
+    --fonte-padrao: 'Open Sans', sans-serif;
+    --fonte-titulo: 'Montserrat', sans-serif;
+
+    --cor-padrao: #F7F4F4;
+    --cor-branco: #FFFFFF;
+    --cor-preto: #000000;
+    --cor-azul-clarinho: #DFE3F5;
+    --cor-azul-mais-claro: #DFE3E5;
+    --cor-azul-escuro: #00161C;
+    --cor-cinza: #4F4C4C;
+    --cor-cinza-claro: #666666;
+    --cor-azul: #0084FF;
+    --cor-cinza-escuro: #333333;
+    --cor-linha: #103D4A;
+    --cor-vermelho: #B72E2E;
+    --cor-azul-claro: #56CCF2;
+    --cor-lilaz: #B04CD9;
+    --cor-vermelho-claro: #E33B3B;
+    --cor-cabecalho: #00161C;
+}
+
+body {
+    background-color: var(--cor-padrao);
+    font-family: var(--fonte-padrao);
+}
+
+a {
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: var(--fonte-titulo);    
+}
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 700;    
+}
+
+.link-componente {
+    border: 1px solid;    
+    display: flex;
+    justify-content: center;
+    padding: 1rem 0;
+    border-radius: 5px;  
+    max-width: 350px;
+    margin: 0 auto; 
+    box-sizing: border-box; 
+}
+
+@media screen and (min-width: 1024px) {
+    .principal {
+        max-width: 1024px;
+        margin: 0 auto;
+    }
+}

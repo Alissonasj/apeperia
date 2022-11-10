@@ -1,0 +1,101 @@
+.contato {
+    padding: 2rem 0;
+    text-align: center;
+    background-color: var(--cor-branco);
+}
+
+.contato__container {
+    margin-bottom: 3rem;
+}
+
+.contato__titulo,
+.institucional__titulo {
+    text-transform: uppercase;
+    font-size: 1.5rem;  
+    color: var(--cor-cinza);  
+}
+
+.contato__texto {
+    margin: 1rem 0;
+}
+
+.contato__email {
+    max-width: 330px;
+    background-color: transparent;
+    text-align: center;
+    border: 1px solid var(--cor-cinza);
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 1rem 0;
+    width: 100%;
+}
+
+.contato__email::placeholder {
+    color: var(--cor-cinza);
+    font-size: .9rem;
+}
+
+
+.institucional__texto {
+    margin: 2rem 0;
+    font-size: .9rem;
+    color: var(--cor-cinza-claro);
+}
+
+.endereco p:nth-child(1) {
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 31.32px;
+    color: var(--cor-cinza-claro);
+    max-width: 250px;
+    margin: 0 auto 1rem auto;
+}
+
+.endereco p:nth-child(2) {
+    font-size: 1.2rem;
+    max-width: 250px;
+    margin: 0 auto;
+    color: var(--cor-cinza-claro);
+}
+
+.video__container {
+    max-width: 676px;
+    margin: 3rem auto 0;
+}
+
+.video {    
+    width: 100%;      
+}
+
+@media screen and (min-width: 768px) {
+    .endereco p:nth-child(2) {
+        max-width: 768px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .endereco__container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .endereco__container-a {
+        text-align: left;
+    }
+
+    .institucional__texto {
+        margin-left: 2rem;
+    }
+
+    .endereco p:nth-child(2), 
+    .endereco p:nth-child(1) {
+        max-width: 250px;
+        margin: 2rem;
+    }
+
+    .video__container {
+        max-width: 375px;
+        margin-right: 2rem;
+    }
+}
